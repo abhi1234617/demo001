@@ -11,8 +11,8 @@ public class ecommerce {
 System.setProperty("webdriver.chrome.driver","C:\\Users\\user\\Downloads\\chromedriver-win64 (3)\\chromedriver.exe");
 	WebDriver driver=new ChromeDriver();	
 		driver.get("https://ecommerce-playground.lambdatest.io/index.php?route=account/login");
-		driver.findElement(By.name("userName")).sendKeys("ABHI");
-		driver.findElement(By.name("password")).sendKeys("abhi1234");
+		driver.findElement(By.name("userName")).sendKeys("Cirrus");
+		driver.findElement(By.name("password")).sendKeys("nmjhyutr");
 		
 		
 	}
