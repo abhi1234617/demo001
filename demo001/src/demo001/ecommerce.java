@@ -12,7 +12,7 @@ System.setProperty("webdriver.chrome.driver","C:\\Users\\user\\Downloads\\chrome
 	WebDriver driver=new ChromeDriver();	
 		driver.get("https://ecommerce-playground.lambdatest.io/index.php?route=account/login");
 		driver.findElement(By.name("userName")).sendKeys("Cirrus");
-		driver.findElement(By.name("password")).sendKeys("nmjhyutr");
+		Thre is a house.
 		
 		
 	}
